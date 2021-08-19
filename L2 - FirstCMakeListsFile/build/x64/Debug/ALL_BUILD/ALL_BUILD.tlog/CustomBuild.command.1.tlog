@@ -1,0 +1,10 @@
+^C:\USERS\TOMASY\DESKTOP\PROGRAMMING\CMAKE TUTORIALS\L2 - FIRSTCMAKELISTSFILE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Tomasy/Desktop/programming/CMake tutorials/L2 - FirstCMakeListsFile" "-BC:/Users/Tomasy/Desktop/programming/CMake tutorials/L2 - FirstCMakeListsFile/build" --check-stamp-file "C:/Users/Tomasy/Desktop/programming/CMake tutorials/L2 - FirstCMakeListsFile/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

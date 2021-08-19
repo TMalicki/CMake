@@ -1,0 +1,10 @@
+^C:\USERS\TOMASY\DESKTOP\PROGRAMMING\CMAKE TUTORIALS\L2 - FIRSTCMAKELISTSFILE\BUILD\CMAKEFILES\9880DC4C70746E7A86C6109DA090F011\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Tomasy/Desktop/programming/CMake tutorials/L2 - FirstCMakeListsFile" "-BC:/Users/Tomasy/Desktop/programming/CMake tutorials/L2 - FirstCMakeListsFile/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Tomasy/Desktop/programming/CMake tutorials/L2 - FirstCMakeListsFile/build/myProject.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

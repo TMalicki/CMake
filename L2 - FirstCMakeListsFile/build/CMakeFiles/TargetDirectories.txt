@@ -1,0 +1,3 @@
+C:/Users/Tomasy/Desktop/programming/CMake tutorials/L2 - FirstCMakeListsFile/build/CMakeFiles/Main.dir
+C:/Users/Tomasy/Desktop/programming/CMake tutorials/L2 - FirstCMakeListsFile/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Tomasy/Desktop/programming/CMake tutorials/L2 - FirstCMakeListsFile/build/CMakeFiles/ZERO_CHECK.dir
